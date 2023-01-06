@@ -1,0 +1,5 @@
+curl -X POST \
+  https://whatever.pythonanywhere.com/predict \
+  -H 'API-Key: whatever' \
+  -H 'Content-Type: application/json' \
+  -d '{"text": "Input text here"}'
