@@ -230,44 +230,28 @@ The results should look like the following:
 
 # References
 
-Pandas documentation:
+[Pandas Documentation Link](https://pandas.pydata.org/docs/)
 
-[https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)
+[Flask Documentation Link 1](https://flask.palletsprojects.com/en/2.2.x/#user-s-guide)
+[Flask Documentation Link 2](https://flask.palletsprojects.com/en/2.2.x/api/)
 
-Flask documentation:
+[Sklearn Documentation Link](https://scikit-learn.org/stable/user_guide.html)
 
-[https://flask.palletsprojects.com/en/2.2.x/#user-s-guide](https://flask.palletsprojects.com/en/2.2.x/#user-s-guide)
+[NumPy Documentation Link](https://numpy.org/doc/)
 
-[https://flask.palletsprojects.com/en/2.2.x/api/](https://flask.palletsprojects.com/en/2.2.x/api/)
+[NLTK Documentation Link](https://www.nltk.org/)
 
-Sklearn documentation, including Naïve Bayes, and Count Vectorizer:
+[langdetect Documentation Link](https://pypi.org/project/langdetect/)
 
-[https://scikit-learn.org/stable/user\_guide.html](https://scikit-learn.org/stable/user_guide.html)
+[pythonanywhere Documentation Link](https://help.pythonanywhere.com/pages/)
 
-NumPy documentation:
+[Naïve Bayes Articles Link 1](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+[Naïve Bayes Articles Link 2](https://www.javatpoint.com/machine-learning-naive-bayes-classifier)
 
-[https://numpy.org/doc/](https://numpy.org/doc/)
-
-NLTK documentation:
-
-[https://www.nltk.org/](https://www.nltk.org/)
-
-langdetect documentation:
-
-[https://pypi.org/project/langdetect/](https://pypi.org/project/langdetect/)
-
-pythonanywhere documentation:
-
-[https://help.pythonanywhere.com/pages/](https://help.pythonanywhere.com/pages/)
-
-Naïve Bayes articles:
-
-[https://en.wikipedia.org/wiki/Naive\_Bayes\_classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
-
-[https://www.javatpoint.com/machine-learning-naive-bayes-classifier](https://www.javatpoint.com/machine-learning-naive-bayes-classifier)
-
-Regex documentation:
-
-[https://docs.python.org/3/library/re.html](https://docs.python.org/3/library/re.html)
+[Regex Documentation Link](https://docs.python.org/3/library/re.html)
 
 Other sources presented by Google.com
+
+Code is available on Keggle too:
+[Keggle Link](https://www.kaggle.com/code/hassanshamseddine/sms-spam-filter)
+
