@@ -14,7 +14,7 @@ The ultimate goal is to make this technology usable in various systems, from mob
 
 # Acknowledgment
 
-I would like to express my appreciation and gratitude to Dr. Fadi Yamout for his invaluable guidance and support throughout the duration of this project. I would also like to express my thanks to my friends for their invaluable contributions in terms of new ideas, technologies and support. Their encouragement, suggestions and feedback have been instrumental in helping me achieve the best possible outcome for this project.
+I would like to express my appreciation and gratitude to Dr. Fadi Yamout for his invaluable guidance and support throughout the duration of this project. I would also like to express my thanks to my friends [@princyam](https://github.com/princyam) and [@f-atwi](https://github.com/f-atwi) for their invaluable contributions in terms of new ideas, technologies and support. Their encouragement, suggestions and feedback have been instrumental in helping me achieve the best possible outcome for this project.
 
 # Chapter 1: Introduction
 
