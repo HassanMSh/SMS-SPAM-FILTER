@@ -16,7 +16,7 @@ The ultimate goal is to make this technology usable in various systems, from mob
 
 I would like to express my appreciation and gratitude to Dr. Fadi Yamout for his invaluable guidance and support throughout the duration of this project. I would also like to express my thanks to my friends [@princyam](https://github.com/princyam) and [@f-atwi](https://github.com/f-atwi) for their invaluable contributions in terms of new ideas, technologies and support. Their encouragement, suggestions and feedback have been instrumental in helping me achieve the best possible outcome for this project.
 
-# Chapter 1: Introduction
+# Introduction
 
 Spam messages, also known as unsolicited or unwanted messages, are a common problem in the field of electronic communication. They can take the form of email, text messages, and even phone calls. Spam messages are typically sent in bulk and often contain advertising or phishing attempts. The problem with spam is that it can be disruptive, annoying, and even harmful if users respond to them or click on links they contain.
 
@@ -26,39 +26,18 @@ Additionally, machine learning algorithms can be trained to detect spam messages
 
 In summary, the problem of spam messages is a significant and growing concern, and machine learning is a powerful tool that can be used to address this problem. Its ability to learn from data, adapt to changing patterns, and detect new types of spam make it an effective solution for filtering out unwanted messages.
 
-## 1.1.The Evolution of Spam Filtering: From Rule-based Systems to Machine Learning
 
-Spam filtering is a crucial aspect of email security, as it helps to keep inboxes free from unwanted and potentially harmful messages. Traditionally, spam filtering has been done using rule-based systems, where messages are flagged as spam if they contain certain keywords or come from certain sources. However, as spammers become more sophisticated, rule-based systems are becoming less effective. This is because spammers are constantly finding new ways to bypass these rules, such as using variations of keywords or disguising their messages to appear as legitimate.
-
-To address this issue, there has been a shift towards using machine learning algorithms for spam filtering. Machine learning is a subset of artificial intelligence that allows systems to learn from data and adapt to changing patterns. This makes it a more robust and effective solution for tackling the problem of spam. Machine learning algorithms can be trained on large sets of data, both labeled and unlabeled. Once trained, the algorithm can learn to identify patterns and characteristics of spam messages, and can adapt over time to changing spam techniques.
-
-In summary, the evolution of spam filtering has moved from rule-based systems to machine learning algorithms. This shift has been driven by the need for more effective and robust solutions to tackle the sophisticated techniques used by spammers today. Machine learning-based spam filters have the ability to learn from data and adapt to changing patterns, making them more effective in identifying and blocking spam messages.
-
-## 1.2.Advantages of Using ML in Detecting Spam
-
-As the volume of spam messages continues to increase, it becomes increasingly challenging for humans to manually go through each message and determine which ones are spam. This is where machine learning algorithms come in. These algorithms can be trained to detect spam messages with high accuracy and generalize well to new messages that have not been seen before. This is especially important in today's digital age where spam messages are becoming more sophisticated and harder to detect.
-
-One of the key advantages of machine learning algorithms in detecting spam messages is their ability to learn from data. These algorithms can be trained on large sets of labeled data, which allows them to learn the characteristics and patterns of spam messages. Once trained, the algorithm can be used to identify new messages as spam with a high degree of accuracy. This is particularly useful in detecting new types of spam, which can be difficult for rule-based systems to detect.
-
-Additionally, machine learning algorithms can also adapt and improve over time as new spam messages are encountered. This means that the algorithm can continuously learn and improve its spam detection capabilities, making it more effective in identifying and blocking spam messages.
-
-In summary, machine learning algorithms have become an essential tool in the fight against spam messages. These algorithms can be trained to detect spam messages with high accuracy and generalize well to new messages that have not been seen before. Furthermore, machine learning can also be used to identify new types of spam, which can be difficult for rule-based systems to detect. The ability to adapt and improve over time also makes machine learning a powerful solution for detecting and blocking spam messages.
-
-## 1.3.Time to Take Action
-
-Since we have the how's and the means, we can build effective measures and solutions to stop or at least halt the spread of such messages. Using machine learning and new technologies to integrate to our systems can be easy with the right tools and personnel.
-
-# Chapter 2: Training the Model
+# Training the Model
 
 For this model we will be using the supervised learning approach. Supervised learning, also known as supervised machine learning, is a subcategory of machine learning and artificial intelligence. It is defined by its use of labeled datasets to train algorithms that to classify data or predict outcomes accurately. As input data is fed into the model, it adjusts its weights until the model has been fitted appropriately, which occurs as part of the cross-validation process. Supervised learning helps organizations solve for a variety of real-world problems at scale, such as classifying spam in a separate folder from your inbox.
 
 The model will be trained using the Naïve Bayes classification algorithm. Naïve Bayes algorithm is a supervised learning algorithm, which is based on Bayes theorem and used for solving classification problems. It is mainly used in text classification that includes a high-dimensional training dataset. Naïve Bayes Classifier is one of the simple and most effective Classification algorithms which helps in building the fast machine learning models that can make quick predictions. It is a probabilistic classifier, which means it predicts on the basis of the probability of an object.
 
-## 2.1.Getting the Dataset
+## Getting the Dataset
 
 Getting the data and labeling them will take a long time and will require multiple people to finish it in a short period of time. So, for this Model we will be using a prelabeled dataset to train the model acquired from Kaggle.
 
-## 2.2.Importing the Necessary Libraries:
+## Importing the Necessary Libraries:
 
 To reach the best results in a short period of time, we will be using Google Collab Platform, as Google Collab can provide us with the computational power to acquire results as fast as possible will providing the simplest and most smooth experience to work on the code.
 
@@ -122,7 +101,7 @@ Allows us to save the trained model into a pickle file that can be used anywhere
 
 The rest of the imports are for the sake of importing/extracting the necessary files from Google Collab or for dependencies for the libraries used.
 
-## 2.3.Preprocessing
+## Preprocessing
 
 This chapter describes the process to preprocess the data before training it so that the model can understand it.
 
@@ -144,7 +123,7 @@ This chapter describes the process to preprocess the data before training it so 
 
 1. To ensure best results, clean the dataframe again. (This step is optional)
 
-## 2.4.Training The Model
+## Training The Model
 
 In this part, we will be preparing then training the model.
 
@@ -160,7 +139,7 @@ In this part, we will be preparing then training the model.
 
 1. We save the model and the fitted/transformed data into a pickle file to be used for later in different python scripts.
 
-## 2.5.Preparing the API
+## Preparing the API
 
 There are several methods for making a model accessible through an API. While popular options such as Linode, AWS and other cloud platforms provide fast servers, they require financial investment. However, a cost-effective solution was discovered in the form of a free hosting service, PythonAnywhere.
 
@@ -185,38 +164,28 @@ By creating a new web app on PythonAnywhere, we will be editing the file flask\_
 
 `curl -X POST https://hassanshamseddine.pythonanywhere.com/predict -H 'API-Key: any available key' -H 'Content-Type: application/json' -d '{"text": "Input text here"}'`
 
-# Chapter 3: Use Case
+# Use Case
 
 The use case of the SMS spam filter API using machine learning is to integrate the trained model, which is a proof of concept, into various systems such as mobile SMS apps, SMPP aggregation systems, and firewalls. The API technology allows for the implementation of the model into these systems to filter out spam messages.
 
-## 3.1.Mobile SMS APPs
+## Mobile SMS APPs
 
 The SMS spam filter API can be integrated into mobile SMS apps to automatically filter out unwanted spam messages before they reach the user's inbox. This helps to improve the user experience by reducing the number of unwanted messages and potential scams.
 
-## 3.2.Firewall Integration
+## Firewall Integration
 
 Firewalls are primarily used by network operators to secure their networks and protect against unauthorized access. By integrating the SMS spam filter API into firewalls, network operators can automatically identify and block unwanted messages before they reach the network. This can help to improve the security of the network and reduce the risk of spam messages being used to launch attacks or spread malware. Additionally, it can also help to improve the user experience by reducing the number of unwanted messages and potential scams reaching the users of the network.
 
-## 3.3.SMPP Aggregation Systems
+## SMPP Aggregation Systems
 
 SMPP (Short Message Peer-to-Peer) aggregation systems are used to handle high volumes of SMS traffic. By integrating the SMS spam filter API into these systems, unwanted messages can be automatically identified and blocked before they are sent to the intended recipients. This can help to improve the efficiency of the system and reduce the risk of spam messages reaching users.
 
-## 3.4.Usage Example
+## Usage Example
 
 When using the curl command, the output should look as below:
 
 
-# Chapter 4: Conclusions
-
-The SMS spam filter project demonstrates the potential of machine learning in solving real-world problems, and the ease of implementing such solutions using the Python programming language. The use of various libraries dedicated to machine learning and the strong support from the open-source community and industry further simplifies the development process.
-
-The SMS spam filter API, which was developed as a proof of concept, showed that AI can provide effective solutions to spam filtering. Its ability to be integrated into various modern-day systems without any issues further highlights the potential of this technology.
-
-However, the system's performance depends on the quality and quantity of the labeled data it is trained on. With the right data, the SMS spam filter can achieve accuracy levels comparable to that of a human.
-
-In conclusion, the SMS spam filter project has shown that AI and machine learning can effectively solve the problem of spam filtering, and the implementation of such solutions can be made simple with the use of Python and its libraries. Recommendations for future work would be to further improve the accuracy of the system and to explore additional use cases for the technology.
-
-# Appendix I: APIs
+# APIs
 
 This appendix shows how to check for new SMS messages if they are spam or not:
 
@@ -227,6 +196,16 @@ You can add the text your wish to test in the "Input text here" parameter.
 The results should look like the following:
 
 `{"prediction":"Spam"}`
+
+# Conclusions
+
+The SMS spam filter project demonstrates the potential of machine learning in solving real-world problems, and the ease of implementing such solutions using the Python programming language. The use of various libraries dedicated to machine learning and the strong support from the open-source community and industry further simplifies the development process.
+
+The SMS spam filter API, which was developed as a proof of concept, showed that AI can provide effective solutions to spam filtering. Its ability to be integrated into various modern-day systems without any issues further highlights the potential of this technology.
+
+However, the system's performance depends on the quality and quantity of the labeled data it is trained on. With the right data, the SMS spam filter can achieve accuracy levels comparable to that of a human.
+
+In conclusion, the SMS spam filter project has shown that AI and machine learning can effectively solve the problem of spam filtering, and the implementation of such solutions can be made simple with the use of Python and its libraries. Recommendations for future work would be to further improve the accuracy of the system and to explore additional use cases for the technology.
 
 # References
 
@@ -250,8 +229,4 @@ The results should look like the following:
 
 [Regex Documentation Link](https://docs.python.org/3/library/re.html)
 
-Other sources presented by Google.com
-
-Code is available on Keggle too:
-[Keggle Link](https://www.kaggle.com/code/hassanshamseddine/sms-spam-filter)
-
+Code is available on Keggle too: [Keggle Link](https://www.kaggle.com/code/hassanshamseddine/sms-spam-filter)
